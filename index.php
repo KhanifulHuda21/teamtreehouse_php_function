@@ -154,5 +154,11 @@ array_walk($team,function($value,$key){
     echo  "$key is a $value\n";
 });
 
-
+echo PHP_EOL;
+$string = 'abcdefghijk';
+if(preg_match("/^abc/", $string)) {
+  echo 'String berawalan abc';
+} else {
+  echo 'Tidak berawalan abc';
+}
 
